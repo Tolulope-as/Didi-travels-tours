@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Paris",
+      "country": "France",
+      "description": "The city of lights, known for its art, fashion,culture and exciting cuisine.",
+      "price":1000
+        },
+    {
+      "id": 2,
+      "name": "Tokyo",
+      "country": "Japan",
+      "description": "A bustling metropolis known for its modernity and traditional culture.",
+      "price":1400
+
+    },
+    {
+      "id": 3,
+      "name": "New York",
+      "country": "USA",
+      "description": "The city that never sleeps, famous for its vibrant culture and lifestyle.",
+      "price":1800
+
+    },
+    {
+      "id": 4,
+      "name": "Rome",
+      "country": "Italy",
+      "description": "Historic city known for its ancient ruins and rich history.",
+      "price":990
+
+    },
+    {
+      "id": 5,
+      "name": "Kigali",
+      "country": "Rwanda",
+      "description": "Known for its impressive wildlife and beautiful conservation areas",
+      "price":499
+
+    },
+    {
+      "id": 6,
+      "name": "Cape Town",
+      "country": "South Africa",
+      "description": "A beautiful city with stunning landscapes and diverse culture.",
+      "price":530
+
+    },
+    {
+      "id": 7,
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "description": "Famous for its carnival, beaches, and vibrant nightlife.",
+      "price":546
+
+    },
+    {
+      "id": 8,
+      "name": "Barcelona",
+      "country": "Spain",
+      "description": "Known for its unique architecture and lively atmosphere.",
+      "price":1090
+
+    },
+    
+    {
+      "id": 9,
+      "name": "Dubai",
+      "country": "UAE",
+      "description": "Known for its luxury shopping, modern architecture, and vibrant nightlife.",
+      "price":1999
+
+    }
+  ]
+  

@@ -1,0 +1,356 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gupter:wght@400;500;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+/* NAVBAR CSS */
+.contact-button{
+    background: #4d6f39;
+    padding: 0px 15px;
+    border-radius: 20px;
+
+    }
+.contact-button:hover{
+    background: #2a4b17;
+}
+
+/*HOMEPAGE CSS */
+.home{
+    width: 100%;
+    min-height:450px;
+    padding: 3em;
+}
+
+.barlow{
+    font-family: "Barlow", sans-serif;
+}
+.gupiter{
+    font-family: "Gupter", serif;
+}
+.nunito{
+    font-family: "Nunito Sans", sans-serif;
+}
+.bold{
+    font-weight: bold;
+}
+body{
+    background:#ffffffe2;
+}
+.home-innerdiv{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url('../assets/images/bg.jpg');
+    background-color: rgba(0, 0, 0, 0.163);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.welcome-box{
+    max-width: 480px;
+    padding: 20px;
+}
+.welcome-box h1{
+    margin: 10px 0px;
+}
+.txt-white{
+    color: #c5c5c5;
+}
+.search-box{
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1));
+   
+    backdrop-filter: blur(20px);
+    color: #2d2a2a;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 10px 30px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+
+}
+.search-items input{
+    width: 70px;
+    background: none;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #0f141f;
+}
+.search-button{
+    padding: 9px 12px;
+    border: 0;
+    margin: 4px;
+    border-radius: 50%;
+    background: #0f141f;
+}
+.search-icon{
+    color: white;
+}
+.f-45px{
+    font-size: 45px;
+    font-weight: bolder;
+}
+@media screen and (max-width:996px) {
+    .search-box{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:768px) {
+    .search-box{
+        grid-template-columns: 1fr;
+    }
+        .contact-button{
+            background: none;
+            padding: 0;
+            border: 0;
+        }
+      
+    
+}
+@media screen and (max-width:590px) {
+    .home{
+        padding: 1em;
+    }
+    .home-innerdiv{
+        padding: 20px;
+    }
+    .welcome-box{
+        padding:5px;
+    }
+    .welcome-box h1{
+        font-size: 40px;
+    }
+}
+.center{
+    display: grid;
+    place-items: center;
+}
+.services-section{
+    margin: 30px;
+}
+
+.services-icon{
+    font-size: 25px; 
+    color: #4681A6;
+    background-color: #f0f0f3;
+    border-radius: 30px; 
+    padding: 5px 10px; 
+    margin: 10px 0px;
+    display: inline-block;
+    font-weight: 900; 
+}
+
+.travel-packages{
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transform: scale(1.04);
+    transition: transform 0.6s;
+}
+.more{
+    padding: 8px 10px;
+    margin: 8px 0px;
+    text-decoration: none;
+    border: 1px solid #4681A6;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.w-800px{
+    max-width:85%;
+
+}
+.destination-div{
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius:3
+    0px;
+    background: #9ab5d7;
+}
+
+/* Testimonial section */
+.testimonial-section{
+    min-height: 650px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    
+    
+}
+.testimonial-heading{
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Fraunces', serif;
+    color: hsl(213, 9%, 49%);
+}
+.testimonial-grid {
+    
+    min-height:300px; 
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 30px;
+    margin-inline: 20px;
+
+    
+}
+.testimonial-grid>*{
+    text-align: center;
+    height: 100%;
+    max-width: 290px;
+   
+}
+@media screen and (max-width:768px) {
+    .testimonial-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+}
+.client-img{
+    width: 50px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.client-testimony{
+    
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: 1.7rem;
+    color: hsl(213, 9%, 39%);
+    margin-bottom: 55px;
+}
+.client{
+    font-size: 15px;
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    color: hsl(212, 27%, 19%);
+
+
+}
+.client-position{
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    color: hsl(213, 9%, 59%);
+}
+/* DESTINATION CSS*/
+.body-text{
+  margin: 0;
+  font-size:14px;
+}
+.pricing{
+    font-size: 14px;
+}
+.continent-icon{
+    font-size: 18px; 
+    color: #4681A6;
+    border-radius: 30px; 
+    padding: 5px; 
+    margin: 10px 0px;
+    display: inline-block;
+    font-weight: 900; 
+}
+.carousel-section{
+    margin-bottom: 40px;
+}
+.h-350px{
+    height: 500px;
+}
+
+/* BOOKINGS CSS */
+
+.booking-section{
+    width: 100%;
+    background: #eeebeb;
+}
+.heading{
+    background: white;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    place-items: center;
+}
+.booking-summary{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    place-items: center;
+    background: white;
+    padding: 5px;
+    margin: 4px 0px;
+    display: grid;
+
+}
+@media screen and (max-width:768px) {
+    .heading,
+    .booking-summary{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+.outline{
+    border: 1px solid #383636;
+}
+/* CONTACT US CSS */
+    .contact-section{
+        background: #faf7dc;
+    }
+    .contact-grid{
+        display: grid;
+        padding: 50px;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+    @media screen and (max-width:768px) {
+        .contact-grid{
+            grid-template-columns: 1fr;
+        }
+    }
+    .contact-message{
+        text-align: center;
+    }
+    .contact-form{
+        max-width:430px;
+        background: white;
+        padding: 30px;
+        display: grid;
+        place-content: center;
+    }
+    .s-25px{
+       font-size: 25px;
+    }
+    .s-25px:hover{
+        color: #4681A6;
+        transition: transform 0.6s;
+    }
+    .send-button{
+        padding: 6px;
+        border-radius: 5px;
+        border: 0;
+        color: white;
+        background: #4681A6;
+    }
+/* FOOTER CSS */
+
+.footer{
+    width: 100%;
+
+}
+.footer-icon{
+    color: #e3dbdb;
+}
+.white-rule{
+    height: 1px;
+    background: #e6e4e4;
+}
