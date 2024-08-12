@@ -45,7 +45,6 @@ To set up and run this project locally, follow these steps:
    npm install
 4.**Start the Development Server**:
 Run the development server to view the project in your web browser:
-```bash
 npm run dev(if using vite)
 
 ## Usage
