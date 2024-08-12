@@ -37,10 +37,10 @@ To set up and run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/your-repository-name.git
 2. **Navigate to project directory**
-   cd your-repository-name
+   ```cd your-repository-name
    
 3. **Install Dependencies**
-   e.g npm install
+   ``` npm install
 4.**Start the Development Server**:
 Run the development server to view the project in your web browser:
 e.g npm run dev(if using vite)
