@@ -21,10 +21,12 @@ This website involves handling user inputsand managing state. The project will i
 ### Technologies
 
 - HTML
-- CSS 
+- CSS
+- Bootstrap
 - Desktop-first workflow
 - Javascript
 - React.JS
+- Vite
 - Git & Github
 ## Installation
 
