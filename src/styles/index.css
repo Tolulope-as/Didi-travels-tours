@@ -94,6 +94,11 @@ body{
     font-size: 45px;
     font-weight: bolder;
 }
+.w-800px{
+    max-width:85%;
+
+}
+
 @media screen and (max-width:996px) {
     .search-box{
         grid-template-columns: 1fr 1fr;
@@ -123,6 +128,9 @@ body{
     }
     .welcome-box h1{
         font-size: 40px;
+    }
+    .w-800px{
+        max-width: 100%;
     }
 }
 .center{
@@ -164,10 +172,7 @@ body{
 
 }
 
-.w-800px{
-    max-width:85%;
 
-}
 .destination-div{
     width: 80%;
     padding: 20px;

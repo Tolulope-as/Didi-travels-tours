@@ -32,10 +32,10 @@ function Destinations() {
       <p className=''>We have alot of beautiful countries for you to visit , each unique and alot of adventures and fun activities.</p>
     </div>
     <section className="travel-packages m-5">
-      <div className="row row-cols-1 row-cols-md-3 g-5 w-800px">
+      <div className="row row-cols-1 row-cols-md-3 g-5 ">
         {destinations.map((destination) => (
           <div className="col d-flex align-items-stretch" key={destination.id}>
-            <div className="card shadow-sm w-100">
+            <div className="card shadow-sm ">
             <img src={images[destination.id]} className="card-img-top" alt={destination.name} />
               <div className="card-body d-flex flex-column nunito">
                 <h5 className="card-title">{destination.name}</h5>
