@@ -28,7 +28,7 @@ function Destinations() {
   return (
     <>
     <div className="text-center nunito">
-      <h2>Choose your next travel destination </h2>
+      <h2 className='mt-4'>Choose your next travel destination </h2>
       <p className=''>We have alot of beautiful countries for you to visit , each unique and alot of adventures and fun activities.</p>
     </div>
     <section className="travel-packages m-5 ">
