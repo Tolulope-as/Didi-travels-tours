@@ -21,10 +21,12 @@ This website involves handling user inputsand managing state. The project will i
 ### Technologies
 
 - HTML
-- CSS 
+- CSS
+- Bootstrap
 - Desktop-first workflow
 - Javascript
 - React.JS
+- Vite
 - Git & Github
 ## Installation
 
@@ -37,13 +39,15 @@ To set up and run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/your-repository-name.git
 2. **Navigate to project directory**
+   ```bash
    cd your-repository-name
    
 3. **Install Dependencies**
-   e.g npm install
+   ```bash
+   npm install
 4.**Start the Development Server**:
 Run the development server to view the project in your web browser:
-e.g npm run dev(if using vite)
+npm run dev(if using vite)
 
 ## Usage
 Once the development server is running, open your web browser and navigate to `http://localhost:3000` to view the website. You can explore the following features:
