@@ -31,8 +31,8 @@ function Destinations() {
       <h2>Choose your next travel destination </h2>
       <p className=''>We have alot of beautiful countries for you to visit , each unique and alot of adventures and fun activities.</p>
     </div>
-    <section className="travel-packages m-5">
-      <div className="row row-cols-1 row-cols-md-3 g-5 ">
+    <section className="travel-packages m-5 ">
+      <div className="row row-cols-1 row-cols-md-3 g-5 w-900px ">
         {destinations.map((destination) => (
           <div className="col d-flex align-items-stretch" key={destination.id}>
             <div className="card shadow-sm ">
